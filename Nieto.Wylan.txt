@@ -1,0 +1,7 @@
+Nom: Nieto
+Prénom: Wylan
+Nom de domaine: nieto.fr
+Identifiant: W.Nieto
+Mots_de_passe_ftp : cd2vuq&avdc8mphy1ugffh6
+Mots_de_passe_bdd : y5wlei1d8}bx
+Mots_de_passe_web : rjm3swq6<x1upl<owh
