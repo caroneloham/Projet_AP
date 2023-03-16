@@ -4,7 +4,7 @@ from pyftpdlib.handlers import FTPHandler
 from pyftpdlib.servers import FTPServer
 
 # Ouvrir le fichier texte pour lire les informations de l'utilisateur
-with open('caron.eloham.txt', 'r') as f:
+with open('Users/caron.eloham.txt', 'r') as f:
     # Lire le contenu du fichier texte
     content = f.read()
     # Extraire l'identifiant à l'aide d'une expression régulière

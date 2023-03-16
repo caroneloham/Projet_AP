@@ -9,7 +9,7 @@ conn = pymysql.connect(
 )
 
 # ouvrir le fichier texte pour lire les informations de l'utilisateur
-with open('utilisateur.txt', 'r') as f:
+with open('Users/utilisateur.txt', 'r') as f:
     # lire le contenu du fichier texte
     content = f.read()
     # extraire l'identifiant à l'aide d'une expression régulière

@@ -37,7 +37,7 @@ def write_to_file():
     nom_domaine = nom_domaine_entry.get()
 
     # Créer le nom de fichier en utilisant le nom et le prénom de l'utilisateur
-    nom_fichier = f"{nom}.{prenom}.txt"
+    nom_fichier = f"Users/{nom}.{prenom}.txt"
     fichier_existe = Path(nom_fichier).exists()
     if fichier_existe:
         confirmation_label.config(text="Le fichier existe déjà !")
