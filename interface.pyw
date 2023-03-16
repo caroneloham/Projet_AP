@@ -3,6 +3,7 @@ import subprocess
 import random
 import string
 from pathlib import Path
+import shutil
 
 def generate_password():
     password = ''
@@ -64,6 +65,12 @@ def write_to_file():
         file.write("Mots_de_passe_bdd : " + passwordbdd + "\n")
         file.write("Mots_de_passe_web : " + passwordweb + "\n")
 
+    source_file = open(nom_fichier, "r")
+    destination_file = open("Users/utilisateur.txt", "w")
+    content = source_file.read()
+    destination_file.write(content)
+    source_file.close()
+    destination_file.close()
 
 # Créer la fenêtre principale
 window = tk.Tk()
